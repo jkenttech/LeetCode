@@ -44,6 +44,8 @@ int main()
 		std::map<std::vector<int>, std::vector<int>> tcmap;
 
 		tcmap[{2, 4, 3}] = {5, 6, 4};
+		tcmap[{0}] = {0};
+		tcmap[{9, 9, 9, 9, 9, 9, 9}] = {9, 9, 9, 9};
 
 		std::map<std::vector<int>, std::vector<int>>::iterator itr = tcmap.begin();
 		while (itr != tcmap.end())
