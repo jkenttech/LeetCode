@@ -1,6 +1,6 @@
 #include <vector>
 
-class Solution {
+class TwoSumSolution {
 public:
     std::vector<int> twoSum(std::vector<int>& nums, int target) {
         
