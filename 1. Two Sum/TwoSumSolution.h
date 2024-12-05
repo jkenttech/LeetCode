@@ -3,5 +3,5 @@
 
 class TwoSumSolution {
 public:
-    static void twoSum();
+    static void twoSum(std::vector<int>& nums, int target);
 };
